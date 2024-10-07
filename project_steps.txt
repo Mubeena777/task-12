@@ -1,0 +1,26 @@
+
+1. Ensure Live Server is Installed:
+   - Open the Extensions view in VSCodium by clicking the square icon on the sidebar or pressing Ctrl+Shift+X.
+   - Search for "Live Server" and install it.
+
+2. Open Your index.html File:
+   - In the Explorer view of VSCodium, open your project folder and double-click on the index.html file.
+
+3. Open the File with Live Server:
+   - Right-click inside the editor where index.html is open and select "Open with Live Server."
+
+4. View Your Form in the Browser:
+   - Your browser will automatically open and show your HTML form. Any changes made to index.html or style.css will be instantly reflected.
+
+5. Move CSS to a Separate File:
+   - Create a new file called style.css and move all the CSS code from the <style> section of index.html to this file.
+   - Link style.css in index.html by adding the following line in the <head> section:
+     <link rel="stylesheet" href="style.css">
+
+6. Validate Passwords Using JavaScript:
+   - In the index.html file, add JavaScript to check if both password fields match before allowing form submission.
+
+7. Move JavaScript to a Separate File:
+   - Create a new file called script.js and move all JavaScript code from index.html to this file.
+   - Link script.js in index.html by adding the following line before the closing </body> tag:
+     <script src="script.js"></script>
